@@ -31,8 +31,10 @@ public class APP {
 
 		CartDaoTest.insert(); // 카트 데이터 삽입
 
-		OrderDaoTest.insertOrderBook(); // 주문 북 데이터 삽입
 		OrderDaoTest.insert(1); // 주문 데이터 삽입
+		OrderDaoTest.insertOrderBook(); // 주문 북 데이터 삽입
+		
+		// 실행하면 바로됩니다.
 
 		System.out.println("------------------------회원 리스트--------------------------");
 
