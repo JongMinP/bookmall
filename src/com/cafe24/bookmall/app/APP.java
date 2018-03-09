@@ -87,7 +87,7 @@ public class APP {
 
 		OrderDao oDao = new OrderDao();
 		for (MemberVo vo : list) {
-			List<OrderVo> oList = oDao.getList(1);
+			List<OrderVo> oList = oDao.getList(vo.getNo());
 			for (OrderVo vv : oList) {
 				System.out.println(vv);
 			}
