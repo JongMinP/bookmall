@@ -53,6 +53,9 @@ public class BookDao {
 		return list;
 
 	}
+	
+	
+	
 
 	public boolean insert(BookVo vo) {
 		boolean result = false;
